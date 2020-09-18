@@ -49,20 +49,20 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
+                  >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="skills.html">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="projects.html">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
             <!-- Links -->
@@ -82,27 +82,27 @@
 
               <ul id="nav" class="menucontainer">
                 <li class="menuitem">
-                  <a id="yellow-text" href="index.html">
+                  <a href="index.html">
                     <span>Home</span>
                   </a>
                 </li>
                 <li class="menuitem">
-                  <a href="#">
+                  <a id="yellow-text" href="about.html">
                     <span>About</span>
                   </a>
                 </li>
                 <li class="menuitem">
-                  <a href="#">
+                  <a href="skills.html">
                     <span>Skills</span>
                   </a>
                 </li>
                 <li class="menuitem">
-                  <a href="#">
+                  <a href="projects.html">
                     <span>Projects</span>
                   </a>
                 </li>
                 <li class="menuitem">
-                  <a href="#">
+                  <a href="contact.html">
                     <span>Contact</span>
                   </a>
                 </li>
@@ -114,31 +114,55 @@
     </header>
 
     <section>
-      <h2>Hello</h2>
+      <div class="jumbotron bg-color-white upper-section">
+        <div class="container">
+          <h2 class="display-3">About</h2>
+          <hr class="yellow-line" />
+        </div>
+      </div>
+
+      <div class="jumbotron bg-color-yellow introduction-block">
+        <div class="container my-about">
+          <h2 class="title-personal-intro">Who I am</h2>
+
+          <p class="personal-intro">
+            My name is Juan Stelling. I’m a web developer based in Amsterdam,
+            the Netherlands. I have experience in Digital Marketing and I am
+            passionate about the tech industry. I am a well-organized person and
+            problem solver, with analytical skills. I like outdoor activities,
+            TV series, cooking, travelling, musea and books. I am interested in
+            the entire front-end spectrum and I like to work on ambitious
+            projects.
+          </p>
+        </div>
+      </div>
+
+
+
+      <hr class="yellow-line" />
     </section>
 
-   
-    <footer class="page-footer font-small teal pt-4">
-      <div class="container-fluid text-center text-md-left">
+    <footer class="footer">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6 mt-md-0 mt-3">
-            <p><em>Stay Hungry. Stay Foolish.</em></p>
+          <div class="col">
+            <span class="quote-footer">Stay Hungry. Stay Foolish.</span>
           </div>
-
-          <hr class="clearfix w-100 d-md-none pb-3" />
-
-          <div class="col-md-6 mb-md-0 mb-3">
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_black" href="https://www.linkedin.com/in/juan-stelling-80058b92/">
-                  <i class="fab fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">LinkedIn</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
+          <div class="col">
+            <ul class="social-links">
+              <li class="social-logo">
                 <a target="_black" href="https://github.com/juanstelling">
                   <i class="fab fa-github-square" aria-hidden="true"></i>
                   <span class="sr-only">Github</span>
+                </a>
+              </li>
+              <li class="social-logo">
+                <a
+                  target="_black"
+                  href="https://www.linkedin.com/in/juan-stelling-80058b92/"
+                >
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                  <span class="sr-only">LinkedIn</span>
                 </a>
               </li>
             </ul>
@@ -146,8 +170,6 @@
         </div>
       </div>
     </footer>
-
-   
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

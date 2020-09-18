@@ -115,7 +115,7 @@ li#about {
     color: #FFE55A;
 }
 
-/*------------------------------------- Navbar mobile */
+/*------------------------------------- Heading/ Navbar mobile */
 
 .navbar {
     background-color: #312C2C;
@@ -145,8 +145,9 @@ li#about {
     color: #fff;
 }
 
+
 .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: #fff; 
     }
 
 .fa-1x {
@@ -193,40 +194,77 @@ cursor: pointer;
 
 /*------------------------------------- Footer */
 
-footer {
-    background-color: #312C2C;
-    color: #fff;
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; 
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px; 
+  line-height: 60px; 
+  background-color: #312C2C;
+}
+
+.quote-footer {
     font-family: "roboto", sans-serif;
-    min-height: 70px;
-    margin: 0;
-    margin-top: 30px;
-}
-
-footer p {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 1rem;
-}
-
-footer i{
+    font-size: 15px;
+    font-style: italic;
     color: #fff;
 }
 
-.social-links {
-    padding-bottom: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+.social-links{
+    float: right;
+
 }
 
-.social-links li a i {
+.social-links li {
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social-logo {
     width: 32px;
-    height: 32px;
+    height: 33px;
     padding: 12px 0;
     font-size: 25px;
 }
 
-.footer-copyright {
-    font-size: 10px;
+.social-logo a{
+    width: 100%;
+    color: #fff;
+}
+
+/*------------------------------------- about */
+
+
+.introduction-block{
+    border-radius: 0;
+}
+
+.title-personal-intro {
+    font-family: "roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.personal-intro {
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
 }
 
 /*------------------------------------- Contact */
@@ -279,6 +317,16 @@ footer i{
     padding: 1em 1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.my-form {
+    margin-right: 10px;
+}
+
+.my-textarea {
+    margin-left: 8px;
+    margin-right: 1px;
 }
 
 .button-position {
@@ -292,6 +340,10 @@ button[type="sumbit"] {
     background-color: #FFE55A;
     border-color: transparent;
    
+}
+
+.white-spacing {
+    margin-bottom: 30px;
 }
 
 /* in the W3C CSS validator it was a phrase error
