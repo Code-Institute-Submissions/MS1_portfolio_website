@@ -1,16 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100, 200, 300, 400, 500, 600, 700');
 
-/*---------------- Colors */
+/*-------------------------------------Colors */
 
 .bg-color-logo {
     background-color: #312C2C;
-
 }
 
-/*---------------- Heading */
+.bg-color-white {
+    background-color:#fff;
+}
+
+.bg-color-yellow {
+    background-color: #FFE55A;
+}
+
+/*-------------------------------------Special paddings/margins/text */ 
+
+h2, h3 p {
+    margin: 0;
+}
+
+
+.yellow-line {
+    border: 3px solid #FFE55A;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.yellow-line-short {
+    border: 2px solid #FFE55A;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 20%;
+}
+
+.upper-section {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*------------------------------------- Heading */
 
 header {
     margin: 0;
+}
+
+.header-space {
+    margin-bottom: 30px;
 }
 
 .menucontainer {
@@ -75,22 +115,20 @@ li#about {
     color: #FFE55A;
 }
 
-/*---------------- Navbar mobile */
+/*------------------------------------- Navbar mobile */
 
 .navbar {
     background-color: #312C2C;
     padding: 0;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 
 .navbar-collapse {
-    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -106,6 +144,10 @@ li#about {
 .navbar-light .navbar-brand {
     color: #fff;
 }
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+    }
 
 .fa-1x {
 font-size: 1.5rem;
@@ -149,7 +191,7 @@ cursor: pointer;
     letter-spacing: 1px;
 }
 
-/*---------------- Footer */
+/*------------------------------------- Footer */
 
 footer {
     background-color: #312C2C;
@@ -157,6 +199,7 @@ footer {
     font-family: "roboto", sans-serif;
     min-height: 70px;
     margin: 0;
+    margin-top: 30px;
 }
 
 footer p {
@@ -186,24 +229,76 @@ footer i{
     font-size: 10px;
 }
 
-/*---------------- Media Queries Footer */
+/*------------------------------------- Contact */
 
-@media (min-width: 768px)
-.mt-md-0, .my-md-0 {
-    margin-top: 20px!important;
+
+.display-3 {
+    font-family: "roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
-@media (min-width: 768px)
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+.display-4{
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-@media (min-width: 768px) {
-    .social-links{
-        float: right;
-    }
+.contact-intro {
+    height: 10px;
+    border-radius: 10px;
+    padding: 1em 1em;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    display: table; 
 }
 
- 
+.contact-text {
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#contact-space{
+    margin: 20px;
+}
+
+/*------------------------------------- Contact Form */
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.form-control{
+    background-color:#E3E3E3;
+    border-color: transparent;
+    padding: 1em 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-position {
+    margin: auto;
+}
+
+button[type="sumbit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    background-color: #FFE55A;
+    border-color: transparent;
+   
+}
+
+/* in the W3C CSS validator it was a phrase error
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #312C2C;
+
+    */
+
+
