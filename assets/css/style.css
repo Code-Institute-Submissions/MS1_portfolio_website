@@ -149,5 +149,61 @@ cursor: pointer;
     letter-spacing: 1px;
 }
 
+/*---------------- Footer */
+
+footer {
+    background-color: #312C2C;
+    color: #fff;
+    font-family: "roboto", sans-serif;
+    min-height: 70px;
+    margin: 0;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+
+footer i{
+    color: #fff;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 25px;
+}
+
+.footer-copyright {
+    font-size: 10px;
+}
+
+/*---------------- Media Queries Footer */
+
+@media (min-width: 768px)
+.mt-md-0, .my-md-0 {
+    margin-top: 20px!important;
+}
+
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 768px) {
+    .social-links{
+        float: right;
+    }
+}
 
  
