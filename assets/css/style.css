@@ -11,42 +11,74 @@
 }
 
 .bg-color-yellow {
-    background-color: #FFE55A;
+    background-color: #fddf3f;
 }
 
 /*-------------------------------------Special paddings/margins/text */ 
 
 h2, h3 p {
-    margin: 0;
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    margin: 0;  
 }
+
+.my-row {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.upper-section {
+    padding: 1em;
+}
+
+.container-1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+/*------------------------------------Yellow Lines */ 
 
 
 .yellow-line {
-    border: 3px solid #FFE55A;
+    border: 3px solid #fddf3f;
     border-radius: 5px;
     text-align: center;
     width: 25%;
 }
 
+.yellow-line-home {
+    border: 2px solid #fddf3f;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 0;
+
+}
+
 .yellow-line-short {
-    border: 2px solid #FFE55A;
+    border: 2px solid #fddf3f;
     border-radius: 5px;
     text-align: center;
     max-width: 20%;
 }
 
-.upper-section {
-    width: 100%;
-    border-radius: 0;
-    padding: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.yellow-line-bottom {
+    border: 3px solid #fddf3f;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*------------------------------------- Heading */
 
 header {
-    margin: 0;
+    margin: auto;
 }
 
 .header-space {
@@ -55,6 +87,7 @@ header {
 
 .menucontainer {
     font-size: 0;
+    margin-right: 20px;
 }
 
 .logo {
@@ -106,23 +139,22 @@ li#about {
     display: block;
     width: 100%;
     padding-top: 5px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
 #yellow-text {
-    color: #FFE55A;
+    color: #fddf3f;
 }
 
-/*------------------------------------- Heading/ Navbar mobile */
+/*------------------------------------- Heading mobile */
 
 .navbar {
     background-color: #312C2C;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 
@@ -139,6 +171,11 @@ li#about {
     font-size: 35px;
     margin-top: 10px;
     margin-left: 20px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
 }
 
 .navbar-light .navbar-brand {
@@ -211,6 +248,8 @@ body {
   height: 70px; 
   line-height: 60px; 
   background-color: #312C2C;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .quote-footer {
@@ -237,13 +276,132 @@ body {
     width: 32px;
     height: 33px;
     padding: 12px 0;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .social-logo a{
     width: 100%;
     color: #fff;
 }
+
+/*------------------------------------- Home */
+
+
+.my-jumbotron-home {
+    padding: 2em 2em;
+    margin-bottom: 0;
+}
+
+.my-jumbotron-home-bottom {
+    padding: 2em 1em;
+}
+
+.box {
+        width: 250px;
+        height: 250px;
+        position: absolute;                       
+        top: 20px;
+        left: 30px;
+}
+
+.yellow {
+    background: #fddf3f;
+    z-index: 1;
+}
+
+.overlay-picture {
+    z-index: 2;
+}
+
+.overlay-picture img {
+    width: 250px;
+    height: 250px;
+}
+
+.home-col {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.home-col h2{
+    font-size: 50px;
+}
+
+.home-col p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.little-intro {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.button-about {
+    color: #fff;
+    background-color: #312C2C;
+    border-color: transparent;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.button-about:hover {
+    color: #fff;
+    background-color:#232020;
+    border-color: transparent;
+}
+
+.cta-contact {
+    font-family: "roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+
+.button-contact {
+    font-size: 20px;
+    font-weight: 600;
+    color: #312C2C;
+    background-color: #fddf3f;
+    border-color: transparent;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.button-contact:hover {
+    color: #312C2C;
+    background-color: #fddf3f;
+    border-color: transparent;
+}
+
+@media (min-width: 767px) {
+.button-contact {
+    margin-left: 20px;
+}
+.cta-contact {
+    margin-right: 20px;
+}
+}
+
+@media (max-width: 767px) {
+  .home-col h2{
+    font-size: 30px;
+}
+.home-col {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+  }
+
+
 
 /*------------------------------------- about */
 
@@ -263,22 +421,24 @@ body {
 .personal-intro {
     font-family: "roboto", sans-serif;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
+}
+
+.col-sm-3 .col-md-3 {
+    padding: 0;
 }
 
 /*------------------------------------- Contact */
 
 
 .display-3 {
-    font-family: "roboto", sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
 .display-4{
-    font-family: "roboto", sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
@@ -337,7 +497,7 @@ button[type="sumbit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #000;
-    background-color: #FFE55A;
+    background-color: #fddf3f;
     border-color: transparent;
    
 }
@@ -352,5 +512,7 @@ button[type="sumbit"] {
     background-color: #312C2C;
 
     */
+
+
 
 

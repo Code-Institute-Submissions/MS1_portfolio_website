@@ -71,16 +71,13 @@
         </nav>
         <!--/.Navbar-->
       </div>
-
       <!-- end Mobile navbar  -->
 
-      <div class="d-none d-md-block">
-        <div class="row">
-          <div class="col-md-12 bg-color-logo">
-            <div class="col">
-              <a href="index.html"> <h1 class="logo">JS</h1></a>
-
-              <ul id="nav" class="menucontainer">
+     <!-- Desktop header -->
+ <div class="d-none d-md-block">
+ <nav class="navbar bg-color-logo">
+ <a class="navbar-brand" href="#">JS</a>
+  <ul id="nav" class="menucontainer">
                 <li class="menuitem">
                   <a id="yellow-text" href="index.html">
                     <span>Home</span>
@@ -107,14 +104,64 @@
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+ </nav>
+ </div>
+       <!-- ../Desktop header -->
     </header>
 
     <section>
-      <h2>Hello</h2>
+     <!-- Intro with picture-->
+      <div class="jumbotron jumbotron-fluid bg-color-white my-jumbotron-home">
+      <div class="row my-row">
+      <div class="col-6 home-col">
+      <h2>Hi,</h2>
+      <h2>I'm Juan</h2>
+      <h2>Web Developer</h2>
+      <p>Front end developer | Back end developer</p>
+      <hr class="yellow-line-home" />
+      </div>
+      <div class="d-none d-md-block">
+      <div class="col-4">
+      <div class="box yellow">
+      <div class="box overlay-picture">
+      <img src="assets/images/juan.jpg" alt="juanpicture">
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--../Intro with picture-->
+
+     <!-- Little introduction about myself-->
+      <div class="jumbotron jumbotron-fluid bg-color-yellow my-jumbotron-home">
+        <div class="container">
+          <div class="row">
+            <p class="little-intro">
+              I am a junior Full Stack Developer with a lot of energy to start
+              new projects. I work effectively and efficiently to build things
+              up, and I have a creative and curious mindset, to create a great
+              user experience.
+            </p>
+          </div>
+          <div class="row">
+            <a class="btn btn-primary button-about" href="about.html" role="button"
+              >More About Me</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--../Little introduction about myself-->
+
+       <!-- CTA for contact-->
+      <div class="jumbotron jumbotron-fluid bg-color-white my-jumbotron-home-bottom">
+      <div class="row">
+        <h2 class="cta-contact">Like to work on a project with me?</h2>
+         <a class="btn btn-primary button-contact" href="contact.html" role="button"
+              >Contact Me</a>
+      </div>
+      </div>
+      <!-- ../CTA for contact-->
     </section>
 
     <footer class="footer">
@@ -145,8 +192,6 @@
         </div>
       </div>
     </footer>
-
-   
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
