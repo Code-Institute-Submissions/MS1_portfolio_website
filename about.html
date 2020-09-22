@@ -48,12 +48,12 @@
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="about.html"
+                  >About<span class="sr-only">(current)</span></a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="skills.html">Skills</a>
@@ -71,16 +71,13 @@
         </nav>
         <!--/.Navbar-->
       </div>
-
       <!-- end Mobile navbar  -->
 
-      <div class="d-none d-md-block">
-        <div class="row">
-          <div class="col-md-12 bg-color-logo">
-            <div class="col">
-              <a href="index.html"> <h1 class="logo">JS</h1></a>
-
-              <ul id="nav" class="menucontainer">
+      <!-- Desktop header -->
+ <div class="d-none d-md-block">
+ <nav class="navbar bg-color-logo">
+ <a class="navbar-brand" href="#">JS</a>
+  <ul id="nav" class="menucontainer">
                 <li class="menuitem">
                   <a href="index.html">
                     <span>Home</span>
@@ -107,22 +104,24 @@
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+ </nav>
+ </div>
+       <!-- ../Desktop header -->
     </header>
 
     <section>
-      <div class="jumbotron bg-color-white upper-section">
-        <div class="container">
-          <h2 class="display-3">About</h2>
+      <!--Title-->
+      <div class="jumbotron jumbotron-fluid bg-color-white upper-section">
+        <div class="container-fluid">
+          <h2 class="overall-title">About</h2>
           <hr class="yellow-line" />
         </div>
       </div>
+      <!--../Title-->
 
-      <div class="jumbotron bg-color-yellow introduction-block">
-        <div class="container my-about">
+      <!--Introduction of myself-->
+      <div class="jumbotron jumbotron-fluid bg-color-yellow introduction-block">
+        <div class="container-fluid">
           <h2 class="title-personal-intro">Who I am</h2>
 
           <p class="personal-intro">
@@ -131,15 +130,44 @@
             passionate about the tech industry. I am a well-organized person and
             problem solver, with analytical skills. I like outdoor activities,
             TV series, cooking, travelling, musea and books. I am interested in
-            the entire front-end spectrum and I like to work on ambitious
+            full stack development and I like to work on ambitious
             projects.
           </p>
         </div>
       </div>
+      <!--../Introduction of myself-->
 
+      <!--picture mobile-->
+ <div class="d-md-none d-lg-none d-xl-none">
+ <img src="assets/images/juan.jpg" alt="juanpicture" style="width:100%; height:100%;" class="img-responsive" />
+ </div>
+       <!--../picture mobile-->
 
-
-      <hr class="yellow-line" />
+<!--4 pictures dekstop-->
+      <div class="d-none d-md-block">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3" style="padding: 0;">
+                <img src="assets/images/snowboard.jpg" alt="girlsnowboarding" style="width:100%; height:100%;" class="img-responsive" />
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3" style="padding: 0;">
+                <img src="assets/images/bluewall.jpg" alt="girlwithbluewall" style="width:100%; height:100%;" class="img-responsive"/>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3" style="padding: 0;">
+                <img src="assets/images/climing.jpg" alt="girlcliming" style="width:100%; height:100%;" class="img-responsive"/>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3" style="padding: 0;">
+                <img src="assets/images/babypic.jpg" alt="babypicture" style="width:100%; height:100%;" class="img-responsive"/>
+            </div>
+        </div>
+        </div>
+</div>
+<!--../4 pictures desktop-->
+<div class="container">
+      <div class="row">
+        <hr class="yellow-line-bottom" />
+      </div>
+      </div>
     </section>
 
     <footer class="footer">
