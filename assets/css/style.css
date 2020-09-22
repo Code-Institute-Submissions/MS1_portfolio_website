@@ -32,14 +32,10 @@ h2, h3 p {
     margin-top: 30px;
 }
 
-.container-1 {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 40px;
-    margin-bottom: 40px; 
+.overall-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /*------------------------------------Yellow Lines */ 
@@ -406,7 +402,7 @@ body {
 /*------------------------------------- about */
 
 
-.introduction-block{
+.my-container-about{
     border-radius: 0;
     padding: 3em 3em;
 }
@@ -428,14 +424,62 @@ body {
     padding: 0;
 }
 
+/*------------------------------------- Skills */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #000;
+    border-left: 2px solid;
+}
+
+.timeline-item h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0; 
+    font-size: 15px;
+    font-weight: 400; 
+    font-style: italic;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #000;
+}
+
+.education-items {
+    margin-bottom: 30px;
+}
+
+
 /*------------------------------------- Contact */
 
 
-.overall-title {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
+
 
 .contact-intro {
     height: 10px;
