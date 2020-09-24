@@ -16,19 +16,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Juan Stelling| Web Developer</title>
+    <title>Juan Stelling | Web Developer</title>
   </head>
 
   <body>
     <header>
       <!-- Mobile navbar  -->
       <div class="d-md-none d-lg-none d-xl-none">
-        <!--Navbar-->
         <nav class="navbar navbar-light lighten-4">
-          <!-- Navbar brand -->
           <a class="navbar-brand" href="index.html">JS</a>
-
-          <!-- Collapse button -->
           <button
             class="navbar-toggler toggler-example"
             type="button"
@@ -42,10 +38,7 @@
               ><i class="fas fa-bars fa-1x"></i
             ></span>
           </button>
-
-          <!-- Collapsible content -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <!-- Links -->
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home</a>
@@ -65,22 +58,16 @@
                 >
               </li>
             </ul>
-            <!-- Links -->
           </div>
-          <!-- Collapsible content -->
         </nav>
-        <!--/.Navbar-->
       </div>
-
       <!-- end Mobile navbar  -->
 
-      <div class="d-none d-md-block header-space">
-        <div class="row">
-          <div class="col-md-12 bg-color-logo">
-            <div class="col">
-              <a href="index.html"> <h1 class="logo">JS</h1></a>
-
-              <ul id="nav" class="menucontainer">
+      <!-- Desktop header -->
+ <div class="d-none d-md-block">
+ <nav class="navbar bg-color-logo">
+ <a class="navbar-brand" href="index.html">JS</a>
+  <ul id="nav" class="menucontainer">
                 <li class="menuitem">
                   <a href="index.html">
                     <span>Home</span>
@@ -107,34 +94,41 @@
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+ </nav>
+ </div>
+       <!-- ../Desktop header -->
     </header>
 
     <section>
-      <div class="jumbotron bg-color-white upper-section">
-        <div class="container">
-          <h2 class="display-3">Contact</h2>
+        <!--Title-->
+      <div class="jumbotron jumbotron-fluid bg-color-white upper-section">
+        <div class="container-fluid">
+          <h2 class="overall-title">Contact</h2>
           <hr class="yellow-line" />
         </div>
       </div>
+      <!--../Title-->
 
-      <div class="jumbotron bg-color-yellow contact-intro">
+     <!--introcution contactpage-->
+      <div class="jumbotron-fluid bg-color-yellow contact-intro">
         <p class="contact-text">
           If you'd like to get in touch, please fill in the form or reach out to
           me by email:<b> juan.stelling@gmail.com</b>
         </p>
       </div>
+      <!--../introcution contactpage-->
+    
+    <div class="container-fluid">
+    <!--Title Contact Form-->
       <div class="row bg-color-contact">
         <div class="col">
-          <div id="contact-space">
-            <h3 class="display-4 text-center">
+            <h3 class="second-title text-center">
               Get in touch!
             </h3>
             <hr class="yellow-line-short" />
-          </div>
+    <!--Title Contact Form-->
+
+          <!--Contact form-->
           <div class="center-form white-spacing">
             <form>
               <div class="form-row">
@@ -160,7 +154,7 @@
                 </div>
 
                 <textarea
-                  rows="5"
+                  rows="8"
                   name="projectsummary"
                   id="projectsummary"
                   class="form-control my-textarea"
@@ -170,7 +164,7 @@
 
                 <div class="form-row button-position">
                   <div class="col">
-                    <button type="sumbit" class="btn btn-secondary">
+                    <button type="submit" class="btn btn-secondary">
                       Send
                     </button>
                   </div>
@@ -180,6 +174,9 @@
           </div>
         </div>
       </div>
+      <!--../Contact form-->
+      </div>
+
     </section>
 
     <footer class="footer">
@@ -191,18 +188,18 @@
           <div class="col">
             <ul class="social-links">
               <li class="social-logo">
-                <a target="_black" href="https://github.com/juanstelling">
-                  <i class="fab fa-github-square" aria-hidden="true"></i>
-                  <span class="sr-only">Github</span>
-                </a>
-              </li>
-              <li class="social-logo">
                 <a
-                  target="_black"
+                  target="_blank"
                   href="https://www.linkedin.com/in/juan-stelling-80058b92/"
                 >
                   <i class="fab fa-linkedin" aria-hidden="true"></i>
                   <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
+              <li class="social-logo">
+                <a target="_blank" href="https://github.com/juanstelling">
+                  <i class="fab fa-github-square" aria-hidden="true"></i>
+                  <span class="sr-only">Github</span>
                 </a>
               </li>
             </ul>

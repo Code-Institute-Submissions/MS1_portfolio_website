@@ -168,13 +168,7 @@ li#about {
     justify-content: space-between;
 }
 
-
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-    margin-bottom: 10px;
-}
+/*------------------------------------- Heading mobile | logo */
 
 .navbar-brand {
     font-family: "roboto", sans-serif;
@@ -189,22 +183,20 @@ li#about {
     color: #fff;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand  {
     color: #fff;
 }
-
 
 .navbar-light .navbar-brand:hover {
     color: #fff; 
     }
 
+/*------------------------------------- Heading mobile | button */
+
 .fa-1x {
 font-size: 1.5rem;
 }
 
-.navbar-toggler.toggler-example {
-cursor: pointer;
-}
 
 .navbar-light .navbar-toggler {
     color: #fff;
@@ -216,6 +208,8 @@ cursor: pointer;
     font-size: 40px;
     margin-right: 20px;
 }
+
+/*------------------------------------- Heading mobile | text in collapse */
 
 .navbar-nav {
     margin-left: 20px;
@@ -233,9 +227,23 @@ cursor: pointer;
     letter-spacing: 1px;
 }
 
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #fff;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-     font-family: "roboto", sans-serif;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    font-family: "roboto", sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -347,7 +355,7 @@ body {
 
 .button-about {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
     background-color: #312C2C;
     border-color: transparent;
@@ -356,9 +364,11 @@ body {
 }
 
 .button-about:hover {
-    color: #fff;
-    background-color:#1d1818;
-    border-color: transparent;
+    color: #000;
+    background-color:#fddf3f;
+    border-color: #312C2C;
+    border-width: 2px;
+
 }
 
 .cta-contact {
@@ -372,7 +382,7 @@ body {
 .button-contact {
     font-size: 20px;
     font-weight: 500;
-    color: #000;
+    color:#000;
     background-color: #fddf3f;
     border-color: transparent;
     margin: auto;
@@ -381,8 +391,8 @@ body {
 }
 
 .button-contact:hover {
-    color: #312C2C;
-    background-color: #ffe971;
+    color: #fff;
+    background-color: #312C2C;
     border-color: transparent;
 }
 
@@ -582,9 +592,11 @@ body {
     margin: auto;
 }
 
-button[type="sumbit"] {
+
+
+button[type="submit"] {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
     background-color: #fddf3f;
     border-color: transparent;
@@ -595,16 +607,15 @@ button[type="sumbit"] {
    
 }
 
+button[type="submit"]:hover {
+    color: #fff;
+    background-color: #312C2C;
+}
+
 .white-spacing {
     margin-bottom: 30px;
 }
 
-/* in the W3C CSS validator it was a phrase error
-.btn-secondary:hover {
-    color: #fff;
-    background-color: #312C2C;
-
-    */
 
 
 
