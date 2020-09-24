@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100, 200, 300, 400, 500, 600, 700');
 
-/*-------------------------------------Colors */
+/* CHECK -------------------------------------Colors */
 
 .bg-color-logo {
     background-color: #312C2C;
@@ -14,17 +14,31 @@
     background-color: #fddf3f;
 }
 
-.bg-progress {
-    background-color: #fddf3f;
+/* CHECK-------------------------------------Special paddings/margins/text */ 
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
+body {
+  margin-bottom: 60px; 
+}
 
-/*-------------------------------------Special paddings/margins/text */ 
-
-h2, h3 p {
+h2, h4 p {
     font-family: "roboto", sans-serif;
-    font-weight: 600;
     margin: 0;  
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px;
 }
 
 .my-container{
@@ -47,13 +61,7 @@ h2, h3 p {
     text-align: center;
 }
 
-.second-title {
-    font-size: 30px;
-    font-weight: 400;
-}
-
-/*------------------------------------Yellow Lines */ 
-
+/* CHECK ------------------------------------Yellow Lines */ 
 
 .yellow-line {
     border: 3px solid #fddf3f;
@@ -65,7 +73,7 @@ h2, h3 p {
 .yellow-line-home {
     border: 2px solid #fddf3f;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     margin-left: 0;
 
 }
@@ -86,31 +94,15 @@ h2, h3 p {
     margin-bottom: 40px;
 }
 
-/*------------------------------------- Heading */
+/* CHECK ------------------------------------- Heading */
 
 header {
     margin: auto;
 }
 
-.header-space {
-    margin-bottom: 30px;
-}
-
 .menucontainer {
     font-size: 0;
     margin-right: 20px;
-}
-
-.logo {
-    font-family: "roboto", sans-serif;
-    font-weight: 200;
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    color: #fff;
-    letter-spacing: 1px;
-    float: left;
 }
 
 #nav {
@@ -159,7 +151,7 @@ li#about {
     color: #fddf3f;
 }
 
-/*------------------------------------- Heading mobile */
+/* ------------------------------------- Heading mobile */
 
 .navbar {
     background-color: #312C2C;
@@ -167,8 +159,6 @@ li#about {
     display: flex;
     justify-content: space-between;
 }
-
-/*------------------------------------- Heading mobile | logo */
 
 .navbar-brand {
     font-family: "roboto", sans-serif;
@@ -191,12 +181,9 @@ li#about {
     color: #fff; 
     }
 
-/*------------------------------------- Heading mobile | button */
-
 .fa-1x {
 font-size: 1.5rem;
 }
-
 
 .navbar-light .navbar-toggler {
     color: #fff;
@@ -204,12 +191,9 @@ font-size: 1.5rem;
 }
 
 .fa-bars:before {
-    content: "\f0c9";
     font-size: 40px;
     margin-right: 20px;
 }
-
-/*------------------------------------- Heading mobile | text in collapse */
 
 .navbar-nav {
     margin-left: 20px;
@@ -248,17 +232,7 @@ font-size: 1.5rem;
     letter-spacing: 1px;
 }
 
-/*------------------------------------- Footer */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px; 
-}
-
+/* ------------------------------------- Footer */
 
 .footer {
   position: absolute;
@@ -279,7 +253,6 @@ body {
 
 .social-links{
     float: right;
-
 }
 
 .social-links li {
@@ -302,12 +275,11 @@ body {
     color: #fff;
 }
 
-/*------------------------------------- Home */
+/* ------------------------------------- Home */
 
 .my-container-home {
     padding: 32px 32px 80px 32px;
 }
-
 
 .box {
         width: 300px;
@@ -343,14 +315,7 @@ body {
 .home-col p {
     font-size: 15px;
     font-weight: 600;
-}
-
-.little-intro {
-    font-family: "roboto", sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
-    margin: 30px;   
+    margin: 0;
 }
 
 .button-about {
@@ -368,15 +333,10 @@ body {
     background-color:#fddf3f;
     border-color: #312C2C;
     border-width: 2px;
-
 }
 
 .cta-contact {
-    font-family: "roboto", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    margin: auto;
+    margin: auto;  
 }
 
 .button-contact {
@@ -398,10 +358,10 @@ body {
 
 @media (min-width: 767px) {
 .button-contact {
-    margin-left: 20px;
+ margin-left: 20px;
 }
 .cta-contact {
-    margin-right: 20px;
+  margin-right: 20px;  
 }
 }
 
@@ -415,81 +375,21 @@ body {
 }
   }
 
-
-
-/*------------------------------------- about */
-
-.title-personal-intro {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.personal-intro {
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.col-sm-3 .col-md-3 {
-    padding: 0;
-}
-
-/*------------------------------------- Skills / skills */
-
-.my-jumbotron {
-    margin: auto;
-    padding: 2em 2em;
-    background-color: #fff;
-}
-
-.my-col {
-   padding: 0em 1em;
-}
+/*------------------------------------- Skills */
 
 .my-container-skills{
     padding: 1em 2em;
 }
 
-
-.skills-text{
-    font-size: 20px;
+.skills-intro{
     font-weight: 400;
-    text-align: center;
-    margin-bottom: 70px;
     padding: 0em 1em;
 }
 
-.skills-text a{
+.skills-intro a{
     font-weight: 600;
-    color: #000;
+    color: #312C2C;   
 }
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-.progress {
-    position: relative;
-    height: 50px;
-    margin-bottom: 8px;
-}
-
-.progress-type{
-    position: absolute;
-    left: 0px;
-    font-family: "roboto", sans-serif;
-    font-size: 13px;
-     font-weight: bold;
-    padding: 15px 50px 7px 15px;
-    color: #000;
-}
-
-/*------------------------------------- Skills / education */
-
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -517,7 +417,6 @@ body {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     padding: 0;
@@ -541,25 +440,14 @@ body {
     margin-left: 40px;
 }
 
-
 /*------------------------------------- Contact */
 
-
 .contact-intro {
-    height: 10px;
     border-radius: 10px;
-    padding: 1em 1em;
     margin: auto;
     margin-bottom: 40px;
-    margin-top: 30px;
     display: table; 
 }
-
-.contact-text {
-    font-size: 20px;
-    text-align: center;
-}
-
 
 /*------------------------------------- Contact Form */
 
@@ -579,10 +467,6 @@ body {
     margin-left: 3px;
 }
 
-.my-form {
-    margin-right: 10px;
-}
-
 .my-textarea {
     margin-left: 8px;
     margin-right: 1px;
@@ -591,8 +475,6 @@ body {
 .button-position {
     margin: auto;
 }
-
-
 
 button[type="submit"] {
     font-size: 20px;
@@ -604,7 +486,6 @@ button[type="submit"] {
     margin-bottom: 20px;
     border-radius: 10px;
     padding: 5px 10px;
-   
 }
 
 button[type="submit"]:hover {
