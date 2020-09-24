@@ -14,6 +14,11 @@
     background-color: #fddf3f;
 }
 
+.bg-progress {
+    background-color: #fddf3f;
+}
+
+
 /*-------------------------------------Special paddings/margins/text */ 
 
 h2, h3 p {
@@ -22,9 +27,13 @@ h2, h3 p {
     margin: 0;  
 }
 
-.my-row {
-    margin: auto;
-    margin-bottom: 20px;
+.my-container{
+    border-radius: 0;
+    padding: 2em 1em;
+}
+
+.container-mobile{
+    padding: 0;
 }
 
 .upper-section {
@@ -36,6 +45,11 @@ h2, h3 p {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+}
+
+.second-title {
+    font-size: 30px;
+    font-weight: 400;
 }
 
 /*------------------------------------Yellow Lines */ 
@@ -51,7 +65,7 @@ h2, h3 p {
 .yellow-line-home {
     border: 2px solid #fddf3f;
     border-radius: 5px;
-    width: 75%;
+    width: 70%;
     margin-left: 0;
 
 }
@@ -282,19 +296,14 @@ body {
 
 /*------------------------------------- Home */
 
-
-.my-jumbotron-home {
-    padding: 3em 3em;
-    margin-bottom: 0;
+.my-container-home {
+    padding: 32px 32px 80px 32px;
 }
 
-.my-jumbotron-home-bottom {
-    padding: 2em 1em;
-}
 
 .box {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         position: absolute;                       
         top: 20px;
         left: 30px;
@@ -310,8 +319,8 @@ body {
 }
 
 .overlay-picture img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .home-col {
@@ -333,24 +342,22 @@ body {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    
+    margin: 30px;   
 }
 
 .button-about {
+    font-size: 20px;
+    font-weight: 400;
     color: #fff;
     background-color: #312C2C;
     border-color: transparent;
     margin: auto;
-    font-size: 20px;
     border-radius: 15px;
 }
 
 .button-about:hover {
     color: #fff;
-    background-color:#232020;
+    background-color:#1d1818;
     border-color: transparent;
 }
 
@@ -364,17 +371,18 @@ body {
 
 .button-contact {
     font-size: 20px;
-    font-weight: 600;
-    color: #312C2C;
+    font-weight: 500;
+    color: #000;
     background-color: #fddf3f;
     border-color: transparent;
     margin: auto;
+    margin-top: 5px;
     border-radius: 15px;
 }
 
 .button-contact:hover {
     color: #312C2C;
-    background-color: #fddf3f;
+    background-color: #ffe971;
     border-color: transparent;
 }
 
@@ -389,7 +397,7 @@ body {
 
 @media (max-width: 767px) {
   .home-col h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 .home-col {
     margin-left: 25px;
@@ -401,12 +409,6 @@ body {
 
 /*------------------------------------- about */
 
-
-.my-container-about{
-    border-radius: 0;
-    padding: 3em 3em;
-}
-
 .title-personal-intro {
     font-size: 30px;
     font-weight: bold;
@@ -415,16 +417,69 @@ body {
 }
 
 .personal-intro {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .col-sm-3 .col-md-3 {
     padding: 0;
 }
 
-/*------------------------------------- Skills */
+/*------------------------------------- Skills / skills */
+
+.my-jumbotron {
+    margin: auto;
+    padding: 2em 2em;
+    background-color: #fff;
+}
+
+.my-col {
+   padding: 0em 1em;
+}
+
+.my-container-skills{
+    padding: 1em 2em;
+}
+
+
+.skills-text{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 0em 1em;
+}
+
+.skills-text a{
+    font-weight: 600;
+    color: #000;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.progress {
+    position: relative;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0px;
+    font-family: "roboto", sans-serif;
+    font-size: 13px;
+     font-weight: bold;
+    padding: 15px 50px 7px 15px;
+    color: #000;
+}
+
+/*------------------------------------- Skills / education */
+
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -434,7 +489,7 @@ body {
 }
 
 .timeline-item h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -473,12 +528,11 @@ body {
 
 .education-items {
     margin-bottom: 30px;
+    margin-left: 40px;
 }
 
 
 /*------------------------------------- Contact */
-
-
 
 
 .contact-intro {
@@ -492,14 +546,10 @@ body {
 }
 
 .contact-text {
-    font-family: "roboto", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 
-#contact-space{
-    margin: 20px;
-}
 
 /*------------------------------------- Contact Form */
 
@@ -509,7 +559,8 @@ body {
     max-width: 60%;
 }
 
-.form-control{
+.form-control {
+    font-size: 20px;
     background-color:#E3E3E3;
     border-color: transparent;
     padding: 1em 1em;
@@ -532,11 +583,15 @@ body {
 }
 
 button[type="sumbit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
     color: #000;
     background-color: #fddf3f;
     border-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
    
 }
 
@@ -550,6 +605,10 @@ button[type="sumbit"] {
     background-color: #312C2C;
 
     */
+
+
+
+
 
 
 
