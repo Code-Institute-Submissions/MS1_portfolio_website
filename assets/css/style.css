@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100, 200, 300, 400, 500, 600, 700');
 
-/* CHECK -------------------------------------Colors */
+/*-------------------------------------Colors */
 
 .bg-color-logo {
     background-color: #312C2C;
@@ -14,7 +14,7 @@
     background-color: #fddf3f;
 }
 
-/* CHECK-------------------------------------Special paddings/margins/text */ 
+/*-------------------------------------Special paddings/margins/text */ 
 
 html {
   position: relative;
@@ -61,7 +61,7 @@ p {
     text-align: center;
 }
 
-/* CHECK ------------------------------------Yellow Lines */ 
+/*------------------------------------Yellow Lines */ 
 
 .yellow-line {
     border: 3px solid #fddf3f;
@@ -73,7 +73,7 @@ p {
 .yellow-line-home {
     border: 2px solid #fddf3f;
     border-radius: 5px;
-    width: 90%;
+    width: 70%;
     margin-left: 0;
 
 }
@@ -94,7 +94,7 @@ p {
     margin-bottom: 40px;
 }
 
-/* CHECK ------------------------------------- Heading */
+/*------------------------------------- Heading */
 
 header {
     margin: auto;
@@ -356,7 +356,7 @@ font-size: 1.5rem;
     border-color: transparent;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 800px) {
 .button-contact {
  margin-left: 20px;
 }
@@ -365,7 +365,7 @@ font-size: 1.5rem;
 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   .home-col h2{
     font-size: 40px;
 }
@@ -439,6 +439,77 @@ font-size: 1.5rem;
     margin-bottom: 30px;
     margin-left: 40px;
 }
+/*------------------------------------- Projects */
+
+.projects-intro {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: table; 
+}
+
+.projects-intro p {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-row-projects {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+    border-radius: 10px;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+    border-radius: 10px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #fddf3f;
+	color: #000;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+
+.hvrbox-layer_top p {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
 
 /*------------------------------------- Contact */
 
@@ -448,8 +519,6 @@ font-size: 1.5rem;
     margin-bottom: 40px;
     display: table; 
 }
-
-/*------------------------------------- Contact Form */
 
 .center-form {
     padding-top: 10px;
@@ -496,6 +565,19 @@ button[type="submit"]:hover {
 .white-spacing {
     margin-bottom: 30px;
 }
+
+/*------------------------------------- @media */
+
+
+@media (max-width: 799px) {
+    .my-row-projects {
+     margin: auto;
+    }
+    .my-col-projects {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+  }
 
 
 
