@@ -43,7 +43,7 @@ p {
 
 .my-container{
     border-radius: 0;
-    padding: 2em 1em;
+    padding: 2em 0em;
 }
 
 .container-mobile{
@@ -358,13 +358,17 @@ font-size: 1.5rem;
 
 /*------------------------------------- Skills */
 
-.my-container-skills{
+.my-container-skills  {
     padding: 1em 2em;
+}
+
+.my-container-education {
+    padding: 1em 3em;
 }
 
 .skills-intro{
     font-weight: 400;
-    padding: 0em 1em;
+    padding: 0;
 }
 
 .skills-intro a{
@@ -483,13 +487,16 @@ font-size: 1.5rem;
 }
 
 .hvrbox-layer_top p {
-    font-size: 13px;
-    margin: 0;
+    font-size: 15px;
+    margin: 10px;
     margin-bottom: 10px;
     display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
+}
+
+.hvrbox-layer_top a {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /*------------------------------------- Contact */
@@ -508,13 +515,14 @@ font-size: 1.5rem;
 }
 
 .form-control {
-    font-size: 20px;
+    font-size: 25px;
     background-color:#E3E3E3;
     border-color: transparent;
     padding: 1em 1em;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 3px;
+    margin-right: 5px;
 }
 
 .my-textarea {
@@ -547,7 +555,7 @@ button[type="submit"]:hover {
     margin-bottom: 30px;
 }
 
-/*------------------------------------- @media */
+/*------------------------------------- MEDIA QUERIES  */
 
 @media (min-width: 800px) {
     .button-contact {
@@ -559,25 +567,75 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 799px) {
-    .home-col h2{
-        font-size: 40px;
+    .home-col h2 {
+        font-size: 20px;
+    }
+    .home-col p {
+        font-size: 15px;
     }
     .home-col {
         margin-left: 25px;
         margin-top: 50px;
     }
+    .my-container-home {
+        padding: 20px 32px;
+    }
+    .cta-contact {
+        font-size: 30px;
+    }
     .my-row-projects {
-     margin: auto;
+        margin: auto;
     }
     .my-col-projects {
         padding-bottom: 20px;
         text-align: center;
     }
-  }
+    .my-container-education {
+        padding: 1em 2em;
+    }
+    .my-row-contact {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .upper-section {
+        padding: 1em;
+        padding-top: 100px;
+    }
+    .my-container-home {
+        padding-top: 60px;
+    }
+    .hvrbox-layer_top p {
+        font-size: 20px;
+    } 
+    .hvrbox-layer_top a {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 400px) {
     .my-col {
         position: absolute;
+    }
+    .skills-intro {
+        margin: 10px;
+    }
+    .my-container-skills {
+        padding: 0em 1.5em;
+    }
+    .timeline-item h4 {
+        font-size: 15px;
+    }
+    .timeline-item p {
+        font-size: 10px;
+    } 
+    .hvrbox-layer_top p {
+        font-size: 17px;
+    } 
+    .hvrbox-layer_top a {
+        font-size: 17px;
     }
 }
 
