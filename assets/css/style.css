@@ -346,7 +346,6 @@ font-size: 1.5rem;
     background-color: #fddf3f;
     border-color: transparent;
     margin: auto;
-    margin-top: 5px;
     border-radius: 15px;
 }
 
@@ -567,6 +566,10 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 799px) {
+    .my-container-home {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
     .home-col h2 {
         font-size: 20px;
     }
@@ -576,12 +579,6 @@ button[type="submit"]:hover {
     .home-col {
         margin-left: 25px;
         margin-top: 50px;
-    }
-    .my-container-home {
-        padding: 20px 32px;
-    }
-    .cta-contact {
-        font-size: 30px;
     }
     .my-row-projects {
         margin: auto;
@@ -599,13 +596,19 @@ button[type="submit"]:hover {
     }
 }
 
+/*------------------------------------- MEDIA QUERIES | for iPhone 6/7/8 plus   */
+
 @media (max-width: 500px) {
+     .cta-contact {
+        font-size: 25px;
+    }
+    .button-contact{
+        font-size: 20px;
+        margin-top: 10px;
+    }
     .upper-section {
         padding: 1em;
         padding-top: 100px;
-    }
-    .my-container-home {
-        padding-top: 60px;
     }
     .hvrbox-layer_top p {
         font-size: 20px;
@@ -615,7 +618,16 @@ button[type="submit"]:hover {
     }
 }
 
+/*------------------------------------- MEDIA QUERIES | for galaxy5/iphone 5/se/6/7/8/x  */
+
 @media (max-width: 400px) {
+     .cta-contact {
+        font-size: 20px;
+    }
+    .button-contact{
+        font-size: 15px;
+        margin-top: 10px;
+    }
     .my-col {
         position: absolute;
     }
