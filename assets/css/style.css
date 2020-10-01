@@ -628,6 +628,15 @@ button[type="submit"]:hover {
 /*------------------------------------- MEDIA QUERIES | for iPhone 6/7/8 plus   */
 
 @media screen and (max-width: 500px) {
+    .my-container-home-3 h2 {
+        font-size: 20px;
+    }
+    .my-container-about p {
+        font-size: 15px;
+    }
+    .skills-intro {
+        font-size: 15px;
+    }
     .button-contact{
         font-size: 20px;
         margin-top: 10px;
@@ -842,7 +851,7 @@ button[type="submit"]:hover {
           font-size: 30px;
       }
       .home-col {
-          margin-left: 150px;
+          margin-left: 70px;
           margin-top: 50px;
       }
       .home-col h2 {
