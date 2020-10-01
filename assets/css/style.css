@@ -327,7 +327,7 @@ font-size: 1.5rem;
 }
 
 .home-col {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 
@@ -606,7 +606,7 @@ button[type="submit"]:hover {
     }
      .upper-section {
         padding: 1em;
-        padding-top: 60px;
+        padding-top: 65px;
     }
     .my-row-projects {
         margin: auto;
@@ -628,13 +628,13 @@ button[type="submit"]:hover {
 /*------------------------------------- MEDIA QUERIES | for iPhone 6/7/8 plus   */
 
 @media screen and (max-width: 500px) {
+    p {
+        font-size: 15px;
+    }
     .my-container-home-3 h2 {
         font-size: 20px;
     }
     .my-container-about p {
-        font-size: 15px;
-    }
-    .skills-intro {
         font-size: 15px;
     }
     .button-contact{
@@ -663,7 +663,7 @@ button[type="submit"]:hover {
         margin-left: 10px;
     }
     .skills-intro {
-        margin: 10px;
+        margin: 20px;
     }
     .my-container-skills {
         padding: 0em 1.5em;
@@ -695,9 +695,9 @@ button[type="submit"]:hover {
           padding: 2em;
       }
       .my-container-home-2 {
-          margin-top: 30px;
+          margin-top: 40px;
           margin-bottom: 30px;
-          padding: 4em 3em;
+          padding: 3em 3em;
       }
       .home-col h2 {
           font-size: 30px;
@@ -851,7 +851,7 @@ button[type="submit"]:hover {
           font-size: 30px;
       }
       .home-col {
-          margin-left: 70px;
+          margin-left: 100px;
           margin-top: 50px;
       }
       .home-col h2 {
