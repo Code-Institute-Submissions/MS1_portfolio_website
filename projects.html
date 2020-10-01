@@ -1,273 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Juan Stelling | Web Developer</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo/logo-js.png">
   </head>
 
   <body>
-    <header>
-      <!-- Mobile navbar  -->
-      <div class="d-md-none d-lg-none d-xl-none fixed-top">
-        <nav class="navbar navbar-light lighten-4">
-          <a class="navbar-brand" href="index.html">JS</a>
-          <button
-            class="navbar-toggler toggler-example"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent1"
-            aria-controls="navbarSupportedContent1"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="dark-blue-text"
-              ><i class="fas fa-bars fa-1x"></i
-            ></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="skills.html">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html"
-                  >Projects <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <!--../Mobile navbar  -->
-
-      <!-- Desktop header -->
-      <div class="d-none d-md-block">
-        <nav class="navbar bg-color-logo">
-          <a class="navbar-brand" href="index.html">JS</a>
-          <ul id="nav" class="menucontainer">
-            <li class="menuitem">
-              <a href="index.html">
-                <span>Home</span>
-              </a>
-            </li>
-            <li class="menuitem">
-              <a href="about.html">
-                <span>About</span>
-              </a>
-            </li>
-            <li class="menuitem">
-              <a href="skills.html">
-                <span>Skills</span>
-              </a>
-            </li>
-            <li class="menuitem">
-              <a id="yellow-text" href="projects.html">
-                <span>Projects</span>
-              </a>
-            </li>
-            <li class="menuitem">
-              <a href="contact.html">
-                <span>Contact</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- ../Desktop header -->
-    </header>
-
-    <section>
-      <!--Title-->
-      <div class="jumbotron-fluid bg-color-white upper-section">
-        <h2 class="overall-title">Projects</h2>
-        <hr class="yellow-line" />
-      </div>
-      <!--../Title-->
-
-      <!--introcution projects-->
-      <div class="jumbotron-fluid bg-color-yellow projects-intro">
-        <p class="text-center">
-          Here are some development projects I have build the last years. Want
-          to see more? <a href="contact.html">Contact me.</a>
-        </p>
-      </div>
-      <!--../introcution projects-->
-
-      <!--Projects-->
-      <div class="container">
-        <div class="row my-row-projects">
-          <div class="col-md-4 col-sm-6 my-col-projects">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project1.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"
-              />
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                  <p>User Experience used CSS and HTML for www.wormergroos.nl</p>
-                 <a href="#" target="_blank">Visit the website</a>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-col-projects">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project2.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"/>
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                  <p>Responsive website design for www.travellandscape.com</p> 
-                  <a href="#" target="_blank">Visit the website</a>
+        <header>
+        <!-- Mobile navbar  -->
+        <div class="d-md-none d-lg-none d-xl-none fixed-top">
+            <nav class="navbar navbar-light lighten-4">
+                <a class="navbar-brand" href="index.html">JS</a>
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-none d-md-block">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project3.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"/>
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                 <p>Responsive full-service design for flowerpower&Friends.</p>
-                 <a href="#" target="_blank"
-                    >Visit the website</a>
-                </div>
-              </div>
-            </div>
-          </div>
+            </nav>
         </div>
-        <div class="row my-row-projects">
-          <div class="col-md-4 col-sm-6 my-col-projects">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project4.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"
-              />
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                  <p>Interactive CSS theme for www.Blue.Industry.com</p>
-                    <a href="#" target="_blank"
-                    >Visit the website</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-col-projects">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project5.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"
-              />
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                  <p>Responsive webdesign and webdevelopment for www.littleforks.com</p>
-                  <a href="#" target="_blank"
-                    >Visit the website</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-none d-md-block">
-            <div class="hvrbox">
-              <img
-                src="assets/images/project6.jpg"
-                alt="Mountains"
-                class="hvrbox-layer_bottom"
-              />
-              <div class="hvrbox-layer_top">
-                <div class="text-center">
-                  <p>Webdevelopment for www.natureandfriends.com</p> <a href="#" target="_blank"
-                    >Visit the website</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--../Projects-->
+        <!--../Mobile navbar  -->
 
-      <!--Yellow line-->
-      <div class="container-fluid">
-        <div class="row">
-          <hr class="yellow-line-bottom" />
+        <!-- Desktop header -->
+        <div class="d-none d-md-block">
+            <nav class="navbar bg-color-logo">
+                <a class="navbar-brand" href="index.html">JS</a>
+                <ul id="nav" class="menucontainer">
+                    <li class="menuitem">
+                        <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="about.html"><span>About</span></a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="skills.html"><span>Skills</span></a>
+                    </li>
+                    <li class="menuitem">
+                        <a id="yellow-text" href="projects.html"><span>Projects</span></a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="contact.html"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </div>
-      <!--../Yellow line-->
-    </section>
+        <!-- ../Desktop header -->
+        </header>
+
+        <section>
+        <!--Title-->
+        <div class="jumbotron-fluid bg-color-white upper-section">
+            <h2 class="overall-title">Projects</h2>
+            <hr class="yellow-line"/>
+        </div>
+        <!--../Title-->
+
+        <!--introcution projects-->
+        <div class="jumbotron-fluid bg-color-yellow projects-intro">
+            <p class="text-center">
+                Here are some development projects I have build the last years. Want
+                to see more? <a href="contact.html">Contact me.</a>
+            </p>
+        </div>
+        <!--../introcution projects-->
+
+        <!--Projects-->
+        <div class="container">
+            <div class="row my-row-projects">
+                <div class="col-md-4 col-sm-6 my-col-projects">
+                    <div class="hvrbox">
+                        <img src="assets/images/project1.jpg" alt="Building" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="text-center">
+                                <p>User Experience used CSS and HTML for www.wormergroos.nl</p>
+                                <a href="#" target="_blank">Visit the website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-col-projects">
+                    <div class="hvrbox">
+                        <img src="assets/images/project2.jpg" alt="Palmboom" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="text-center">
+                                <p>Responsive website design for www.travellandscape.com</p> 
+                                <a href="#" target="_blank">Visit the website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="hvrbox">
+                        <img src="assets/images/project3.jpg" alt="Flowers" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="text-center">
+                                <p>Responsive full-service design for flowerpower&Friends.</p>
+                                <a href="#" target="_blank">Visit the website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-row-projects">
+                <div class="col-md-4 col-sm-6 my-col-projects">
+                    <div class="hvrbox">
+                        <img src="assets/images/project4.jpg" alt="blue" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                                <div class="text-center">
+                                    <p>Interactive CSS theme for www.Blue.Industry.com</p>
+                                    <a href="#" target="_blank">Visit the website</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-col-projects">
+                    <div class="hvrbox">
+                        <img src="assets/images/project5.jpg" alt="Mountains" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="text-center">
+                                <p>Responsive webdesign and webdevelopment for www.littleforks.com</p>
+                                <a href="#" target="_blank">Visit the website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="hvrbox">
+                        <img src="assets/images/project6.jpg" alt="nature" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="text-center">
+                                <p>Webdevelopment for www.natureandfriends.com</p>
+                                <a href="#" target="_blank">Visit the website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--../Projects-->
+
+        <!--Yellow line-->
+        <div class="container-fluid">
+            <div class="row">
+                <hr class="yellow-line-bottom"/>
+            </div>
+        </div>
+        <!--../Yellow line-->
+
+        </section>
 
     <footer class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col my-col">
-            <span class="quote-footer">Stay Hungry. Stay Foolish.</span>
-          </div>
-          <div class="col my-col">
-            <ul class="social-links">
-              <li class="social-logo">
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/juan-stelling-80058b92/"
-                >
-                  <i class="fab fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">LinkedIn</span>
-                </a>
-              </li>
-              <li class="social-logo">
-                <a target="_blank" href="https://github.com/juanstelling">
-                  <i class="fab fa-github-square" aria-hidden="true"></i>
-                  <span class="sr-only">Github</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div class="row">
+                <div class="col my-col">
+                    <span class="quote-footer">Stay Hungry. Stay Foolish.</span>
+                </div>
+                <div class="col my-col">
+                    <ul class="social-links">
+                        <li class="social-logo">
+                            <a target="_blank" href="https://www.linkedin.com/in/juan-stelling-80058b92/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="social-logo">
+                            <a target="_blank" href="https://github.com/juanstelling">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

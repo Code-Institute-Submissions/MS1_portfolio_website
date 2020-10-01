@@ -1,3 +1,11 @@
+ /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100, 200, 300, 400, 500, 600, 700');
 
 /*-------------------------------------Colors */
@@ -25,14 +33,14 @@ body {
   margin-bottom: 60px; 
 }
 
-h2, h4 p {
+h2, h3, h4, p {
     font-family: "roboto", sans-serif;
     margin: 0;  
 }
 
-h2{
+h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p {
@@ -41,12 +49,12 @@ p {
     margin: 30px;
 }
 
-.my-container{
+.my-container {
     border-radius: 0;
     padding: 2em 0em;
 }
 
-.container-mobile{
+.container-mobile {
     padding: 0;
 }
 
@@ -156,8 +164,12 @@ li#about {
 .navbar {
     background-color: #312C2C;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .navbar-brand {
@@ -275,7 +287,13 @@ font-size: 1.5rem;
     color: #fff;
 }
 
-/* ------------------------------------- Home */
+/* ------------------------------------- Home  */
+
+.my-row-mobile {
+    padding-left: 3em;
+    padding-top: 10em;
+    padding-bottom: 2em;
+}
 
 .my-container-home {
     padding: 4em 3em;
@@ -362,7 +380,7 @@ font-size: 1.5rem;
 
 /*------------------------------------- Skills */
 
-.my-container-skills  {
+.my-container-skills {
     padding: 1em 2em;
 }
 
@@ -370,12 +388,12 @@ font-size: 1.5rem;
     padding: 1em 3em;
 }
 
-.skills-intro{
+.skills-intro {
     font-weight: 400;
     padding: 0;
 }
 
-.skills-intro a{
+.skills-intro a {
     font-weight: 600;
     color: #312C2C;   
 }
@@ -454,10 +472,12 @@ font-size: 1.5rem;
     margin-top: 30px;
 }
 
-.hvrbox,
+.hvrbox, 
 .hvrbox * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
+
 .hvrbox {
 	position: relative;
 	display: inline-block;
@@ -465,13 +485,16 @@ font-size: 1.5rem;
 	max-width: 100%;
 	height: auto;
 }
+
 .hvrbox img {
 	max-width: 100%;
     border-radius: 10px;
 }
+
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
 }
+
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
 	position: absolute;
@@ -485,11 +508,11 @@ font-size: 1.5rem;
 	background: #fddf3f;
 	color: #000;
 	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
 	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
 	opacity: 1;
@@ -565,7 +588,7 @@ button[type="submit"]:hover {
     background-color: #312C2C;
 }
 
-/*------------------------------------- MEDIA QUERIES  */
+/*------------------------------------- MEDIA QUERIES | responsive desktop */
 
 @media (min-width: 800px) {
     .button-contact {
@@ -605,16 +628,6 @@ button[type="submit"]:hover {
 /*------------------------------------- MEDIA QUERIES | for iPhone 6/7/8 plus   */
 
 @media screen and (max-width: 500px) {
-     .home-col h2 {
-        font-size: 20px;
-    }
-    .home-col p {
-        font-size: 15px;
-    }
-    .home-col {
-        margin-left: 25px;
-        margin-top: 50px;
-    }
     .button-contact{
         font-size: 20px;
         margin-top: 10px;
@@ -662,7 +675,7 @@ button[type="submit"]:hover {
 
 /*------------------------------------- MEDIA QUERIES | for ipad  */
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
       p {
           font-size: 25px;
       }
@@ -726,7 +739,7 @@ button[type="submit"]:hover {
 
   /*------------------------------------- MEDIA QUERIES | for ipad pro  */
 
-  @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
       p {
           font-size: 25px;
       }
@@ -760,7 +773,7 @@ button[type="submit"]:hover {
           margin-top: 40px;
       }
       .yellow-line-bottom{
-          margin-top: 90px;
+          margin-top: 80px;
       }
       .skills-intro {
           font-size: 25px;
@@ -806,6 +819,104 @@ button[type="submit"]:hover {
           font-size: 30px;
       }
   }
+
+   /*------------------------------------- MEDIA QUERIES | for >1680px desktop */
+
+@media screen and (min-width: 1680px) {
+       p {
+          font-size: 25px;
+      }
+      .overall-title {
+          font-size: 50px;
+      }
+      .my-container-home {
+          padding: 2em 3em;
+      }
+       .my-container-home-2 {
+          margin-top: 50px;
+          margin-bottom: 10px;
+          padding: 2em 3em;
+      }
+      .my-container-home-2 p {
+          font-size: 30px;
+      }
+      .home-col {
+          margin-left: 150px;
+          margin-top: 50px;
+      }
+      .home-col h2 {
+          font-size: 70px;
+      }
+      .home-col p {
+          font-size: 30px;
+      }
+      .yellow {
+          height: 300px;
+            width: 300px;
+      }
+      .overlay-picture img {
+          width: 300px;
+          height: 300px;
+      }
+      .my-container-home-3 h2 {
+          font-size: 40px;
+      }
+      .my-container-about{
+          padding: 2em 1em;
+      }
+      .yellow-line-bottom{
+          margin-top: 30px;
+      }
+      .skills-intro {
+          font-size: 25px;
+      }
+      .my-container-education {
+        padding: 1em;
+      }
+      .timeline-item h4 {
+        font-size: 25px;
+      } 
+      .timeline-item p {
+        font-size: 20px;
+      } 
+      .projects-intro{
+          height: 70px;
+          margin: auto;
+          margin-bottom: 70px;
+      }
+      .projects-intro p{
+          padding: 1em;
+      }
+      .my-row-projects {
+          margin-top: 30px;
+          margin-bottom: 30px;
+      }
+      .contact-intro {
+          height: 70px;
+          margin-bottom: 0;
+      }
+      .my-container-contact {
+          padding-top: 2em;
+          padding-bottom: 0;
+      }
+      .my-container-contact h2 {
+            font-size: 45px;
+      }
+      .form-control {
+          font-size: 25px;
+          width: 100%;
+      }
+      .my-col-form {
+          padding: 1em;
+      }
+      .button-position {
+          padding: 0;
+      }
+      .btn:not(:disabled):not(.disabled) {
+          font-size: 30px;
+      }
+  }
+
 
   
 
