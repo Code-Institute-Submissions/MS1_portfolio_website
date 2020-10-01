@@ -65,7 +65,7 @@
 4. As a first time visitor, I want to see the skills and education of the person, so that I know what the web developer can do.
     - The first time visitor can go to the skills page where the visitor can read more about the skills of web development and the education history. 
 5. As a first time visitor, I want to know which projects the person has done, so that I know the level of experience of the person. 
- - The first time visitor can go to the projects page where the visitor can see all projects the person has done. The projects for now are fictional because the person just started with development and hasn't any web development projects yet. 
+    - The first time visitor can go to the projects page where the visitor can see all projects the person has done. The projects for now are fictional because the person just started with development and hasn't any web development projects yet. 
 
 #### Returning visitors goals
 1. As a returning visitor, I want to know how I can contact the person for potential projects/ more information so that I can reach out to that person. 
@@ -77,7 +77,13 @@
 
 ## Bugs 
 
-- respond of the hamburger menu 
-- footer fixed 
-- overflowing jumbotrons and containers 
-- responsiveness on ipad and ipad pro 
+- A bug I found in the beginning of my project was that **the hamburger menu on mobile** didn't went down. 
+    - This was solved by adding the jQuery, Popper.js and Bootstraps JavaScript plugin scripts of bootstrap. 
+- A bug I found also in the beginning of my project was that **the footer** wasn't responsive for all devices. 
+    - This was solved by making the footer fixed with support of the Bootstrap framework. 
+- A bug I found several times on different pages was **the overflowing jumbotron, container or columns** on desktop and mobile. 
+    - This was solved by making some changes in the paddings and margins of the elements. 
+- A bug I found was **the responsiveness on iPad and iPad pro.** The design wasn't designed for iPad and iPad Pro that is way there was a lot of whitespace on the iPad. 
+    - This was solved by adding some media queries to adjust the style for iPad and iPad pro. 
+
+[Go to README.md file](README.md).
