@@ -51,7 +51,7 @@ p {
 
 .my-container {
     border-radius: 0;
-    padding: 2em 0em;
+    padding: 2em 1em;
 }
 
 .container-mobile {
@@ -301,7 +301,7 @@ font-size: 1.5rem;
 
 .my-container-home-2 {
     border-radius: 0;
-    padding: 2em 0em;
+    padding: 2em 1em;
 }
 
 .box {
@@ -327,7 +327,7 @@ font-size: 1.5rem;
 }
 
 .home-col {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
@@ -604,9 +604,9 @@ button[type="submit"]:hover {
         padding-top: 60px;
         padding-bottom: 20px;
     }
-     .upper-section {
-        padding: 1em;
-        padding-top: 65px;
+    .home-col {
+        margin-left: 50px;
+        margin-top: 50px;
     }
     .my-row-projects {
         margin: auto;
@@ -631,11 +631,18 @@ button[type="submit"]:hover {
     p {
         font-size: 15px;
     }
+    .upper-section {
+        padding: 1em;
+        padding-top: 80px;
+    }
+    .my-container {
+        padding: 2em 0em;
+    }
+    .my-container-home-2 {
+        padding: 2em 0em;
+    }
     .my-container-home-3 h2 {
         font-size: 20px;
-    }
-    .my-container-about p {
-        font-size: 15px;
     }
     .button-contact{
         font-size: 20px;
@@ -712,6 +719,7 @@ button[type="submit"]:hover {
       }
       .my-container-about{
           padding: 3em;
+          margin-top: 30px;
       }
       .timeline-item h4 {
         font-size: 25px;
@@ -720,14 +728,14 @@ button[type="submit"]:hover {
         font-size: 20px;
       } 
       .projects-intro{
-          height: 170px;
+          height: 150px;
       }
       .projects-intro p{
           padding: 1em;
           font-size:25px;
       }
       .contact-intro {
-          height: 180px;
+          height: 150px;
       }
       .contact-intro p {
           padding: 1em;
@@ -809,7 +817,7 @@ button[type="submit"]:hover {
           margin-bottom: 60px;
       }
       .contact-intro {
-          height: 200px;
+          height: 150px;
       }
       .my-container-contact {
           padding: 2em;
@@ -851,7 +859,7 @@ button[type="submit"]:hover {
           font-size: 30px;
       }
       .home-col {
-          margin-left: 100px;
+          margin-left: 180px;
           margin-top: 50px;
       }
       .home-col h2 {
@@ -879,9 +887,10 @@ button[type="submit"]:hover {
       }
       .skills-intro {
           font-size: 25px;
+          padding: 0em 2em;
       }
       .my-container-education {
-        padding: 1em;
+        padding: 1em 5em;
       }
       .timeline-item h4 {
         font-size: 25px;
