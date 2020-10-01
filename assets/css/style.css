@@ -737,11 +737,9 @@ button[type="submit"]:hover {
     }
   }
 
- 
+  /*------------------------------------- MEDIA QUERIES | for ipad pro  */ 
 
-  /*------------------------------------- MEDIA QUERIES | for ipad pro  */
-
-  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+  @media screen and (min-width: 1024px) and (max-width: 1366px) and (min-height: 1024px) {
       p {
           font-size: 25px;
       }
@@ -821,6 +819,7 @@ button[type="submit"]:hover {
           font-size: 30px;
       }
   }
+
 
    /*------------------------------------- MEDIA QUERIES | for >1680px desktop */
 

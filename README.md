@@ -2,7 +2,7 @@
 
 ![Portfolio website](readme-testing/portfoliowebsite-responsive.png)
 
-This website presents my portfolio website, to present myself as a web developer. 
+This website is my portfolio website to present myself as a web developer. 
 I wanted a portfolio website for a while but never started it. This project was a good opportunity to create my portfolio website with a self-written code, to show my skills. 
 The website shows my resume, where you get to know me more. The website provides information about my skills, education and personal information. 
 
@@ -135,7 +135,7 @@ Click on the links below to see the mockups in Figma.
 <span id="features-future"></span>
 
 ### 2.2 Features left to implement in the future 
-- Taking the text: "Hi, I'm Juan Web Developer" moving. The letters are typed when you open the page.
+- Making the text: "Hi, I'm Juan Web Developer" moving. The letters are typed when you open the page.
 - Making the projects on the project page more interactive, by letting them move a little more. 
 - Visualize my software development skills (such as html, css, etc) with a dots on the skills page
 
