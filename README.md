@@ -10,20 +10,17 @@ This project is the first of four Milestone Projects in the Full Stack Web Devel
 
 ---
 
-## index 
+## Index 
 
 - <a href="#ux">1. User experience (UX)</a>
   - <a href="#ux-goals">1.1. Project goals</a>
   - <a href="#ux-stories">1.2 User stories</a>
   - <a href="#ux-design">1.3 Design</a>
- - <a href="#ux-wireframes">1.4 Wireframes</a>
+  - <a href="#ux-wireframes">1.4 Wireframes</a>
 - <a href="#features">2. Features</a>
   - <a href="#features-existing">2.1 Existing features</a>
   - <a href="#features-future">2.2 Features left to implement in the future</a>
 - <a href="#technologies">3. Technologies used</a>
-  - <a href="#tchnologies-languages">3.1 Languages used</a>
-  - <a href="#technologies-frameworks">3.2 Frameworks, libraries and programs used</a>
-  - <a href="#technologies-testingtools">3.3 Testingtools used</a>
 - <a href="#testing">4. Testing</a>
 - <a href="#deployment">5. Deployment</a>
 - <a href="#credits">6. Credits</a>
@@ -36,7 +33,7 @@ This project is the first of four Milestone Projects in the Full Stack Web Devel
 
 <span id="ux-goals"></span>
 
-## 1.1 Project goals 
+### 1.1 Project goals 
 
 - Making a static front-end site to present useful information to users/ recruitments, using all technologies that I have learned about so far. (HTML, CSS, Bootstrap and user experience/design) 
 - Creating a website that is easy to navigate and easy to understand. 
@@ -46,23 +43,23 @@ This project is the first of four Milestone Projects in the Full Stack Web Devel
 
 <span id="ux-stories"></span>
 
-## 1.2 User stories 
+### 1.2 User stories 
 
 #### First time visitors goals 
-1. As a First Time Visitor, I want  the website scales on every device, so that I can look at the website on desktop, mobile and tablet. 
-2. As a First Time Visitor, I want to be able to navigate easily through the website. 
-3. As a First Time Visitor, I want to know more about the person, so that I get a feeling by the person. 
-4. As a First Time Visitor, I want to see the skills and education of the person, so that I know what the web developer can do.
-5. As a First Time Visitor, I want to know which projects the person has done, so that I know the level of experience of the person. 
+1. As a first time visitor, I want  the website scales on every device, so that I can look at the website on desktop, mobile and tablet. 
+2. As a first time visitor, I want to be able to navigate easily through the website. 
+3. As a first time visitor, I want to know more about the person, so that I get a feeling by the person. 
+4. As a first time visitor, I want to see the skills and education of the person, so that I know what the web developer can do.
+5. As a first time visitor, I want to know which projects the person has done, so that I know the level of experience of the person. 
 
 #### Returning visitors goals
-1. As a Returning Visitor, I want to know how I can contact the person for potential projects/ more information so that I can reach out to that person. 
-2. As a Returning Visitor, I want to find the social links of the person on the website so that I can see the socials of the person. 
-3. As a Returning Visitor, I want to know more information about the projects the person has done so that I know the level of experience of the person. 
+1. As a returning visitor, I want to know how I can contact the person for potential projects/ more information so that I can reach out to that person. 
+2. As a returning visitor, I want to find the social links of the person on the website so that I can see the socials of the person. 
+3. As a returning visitor, I want to know more information about the projects the person has done so that I know the level of experience of the person. 
 
 <span id="ux-design"></span>
 
-## 1.3 Design 
+### 1.3 Design 
 
 - #### Colour scheme 
 The two main colours that are used are:
@@ -79,10 +76,10 @@ All images are personal images, to make a personal ambiance of the developer. Wi
 
 <span id="ux-wireframes"></span>
 
-## 1.4 Wireframes 
+### 1.4 Wireframes 
 Instead of wireframes, I preferred to make mockups. I used mockups to fleshes out the static visual look of the site. The mockups are made with [Figma.](https://www.figma.com/)
 
-Click on the links below to see the mockups 
+Click on the links below to see the mockups in Figma.
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](https://www.figma.com/file/twjTYHuIbgD7nqcPA4EFf9/Milestone-project-1?node-id=0%3A1)|[All pages](https://www.figma.com/file/twjTYHuIbgD7nqcPA4EFf9/Milestone-project-1?node-id=6%3A28)|[All pages](https://www.figma.com/file/twjTYHuIbgD7nqcPA4EFf9/Milestone-project-1?node-id=6%3A27)|
@@ -97,7 +94,7 @@ Click on the links below to see the mockups
 
 <span id="features-existing"></span>
 
-## 2.1 Existing features 
+### 2.1 Existing features 
 
 #### General 
 - The website is fully responsive on every device and internet service. 
@@ -135,7 +132,8 @@ Click on the links below to see the mockups
 
 <span id="features-future"></span>
 
-## 2.2 Features left to implement in the future 
+### 2.2 Features left to implement in the future 
+- The text: "Hi, I'm Juan Developer" is typed when you open the page
 - Making the projects on the project page more interactive, by letting them move a little more. 
 - Visualize my software development skills (such as html, css, etc) with a dots on the skills page
 
@@ -143,17 +141,13 @@ Click on the links below to see the mockups
 
 <h1>3. Technologies used</h1>
 
-<span id="technologies-languages"></span>
-
-## 3.1 Languages used
+#### Languages used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
     - HTML5 provides the structure and the content for my project. 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
     - CSS3 provides the style of the HTML5 elements.
 
-<span id="technologies-frameworks"></span>
-
-## 3.2 Frameworks, libraries & programs used
+#### Frameworks, libraries & programs used
 -  [Bootstrap v4.5.2](https://getbootstrap.com/) 
     - Bootstrap v4.5.2 is used to create the layout for desktop and mobile.  
 - [jQuery](https://jquery.com/) 
@@ -169,9 +163,7 @@ Click on the links below to see the mockups
 - [Figma](https://www.figma.com/)
     - Figma is used to create the mockup designs for the project.
 
-<span id="technologies-testingtools"></span>
-
-## 3.3 Testingtools used 
+#### Testingtools used 
 - [Autoprefixer](https://autoprefixer.github.io/)
     - Autoprefixer is used to parsethe CSS and to add vendor prefixes to CSS rules. 
 - [W3C Markup Validation Service](https://validator.w3.org/)
@@ -182,7 +174,7 @@ Click on the links below to see the mockups
 <span id="testing"></span>
 
 <h1>4. Testing</h1>
-The testing process can be found [here.](TESTING.md)
+The testing process can be found [here](TESTING.md).
 
 <span id="deployment"></span>
 
@@ -221,5 +213,5 @@ To clone this project from GitHub:
 Thanks to the following people or organizations who helped or inspired me for the project.  
 - The support and guidance of my mentor Precious Ijege. 
 - The lessons and knowledge of [Code Institute.](https://codeinstitute.net/)
-- Inspiration for my portfolio website from the next people: [Seb Kay,](https://sebkay.com/) [Jacakjeznach](https://jacekjeznach.com/) and   [Matt Farley.](https://mattfarley.ca/)
+- Inspiration for my portfolio website from the next people: [Seb Kay,](https://sebkay.com/) [Jacakjeznach](https://jacekjeznach.com/) and   [Matt Farley](https://mattfarley.ca/).
 - The support of my fellow students, especially [Fernandagil,](https://github.com/fernandagil/ms1-nonnapepita-restaurant) from who I took inspiration for my README file. 
