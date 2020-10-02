@@ -355,7 +355,7 @@ font-size: 1.5rem;
     color: #000;
     background-color:#fddf3f;
     border-color: #312C2C;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .cta-contact {
@@ -369,6 +369,7 @@ font-size: 1.5rem;
     background-color: #fddf3f;
     border-color: transparent;
     margin: auto;
+    margin-top: 5px;
     border-radius: 15px;
 }
 
@@ -600,6 +601,10 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 768px) {
+    .upper-section {
+        padding: 1em;
+        padding-top: 80px;
+    }
     .my-container-home {
         padding-top: 60px;
         padding-bottom: 20px;
@@ -625,15 +630,17 @@ button[type="submit"]:hover {
     }
 }
 
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    .upper-section {
+        margin-top: 60px;
+    }
+}
+
 /*------------------------------------- MEDIA QUERIES | for iPhone 6/7/8 plus   */
 
 @media screen and (max-width: 500px) {
     p {
         font-size: 15px;
-    }
-    .upper-section {
-        padding: 1em;
-        padding-top: 80px;
     }
     .my-container {
         padding: 2em 0em;
